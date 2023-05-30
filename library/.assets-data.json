@@ -1,0 +1,37 @@
+{
+  "d7ca6a8d-6880-4356-a803-1176de3fef98": {
+    "url": "db://assets/scenes",
+    "value": {}
+  },
+  "b9f3a828-0f8f-4309-b7d8-e72f2f236b42": {
+    "url": "db://assets/scripts",
+    "value": {}
+  },
+  "a3bf1fab-fc7f-4ac2-b529-7458c8a297f9": {
+    "url": "db://assets/prefabs",
+    "value": {}
+  },
+  "015193f5-d78f-4655-865b-a896b307b206": {
+    "url": "db://assets/scenes/Game.scene",
+    "value": {
+      "depends": [
+        "015193f5-d78f-4655-865b-a896b307b206",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "813dcc61-d5f4-4eb5-9875-f50016b679dd",
+        "015193f5-d78f-4655-865b-a896b307b206"
+      ]
+    }
+  },
+  "813dcc61-d5f4-4eb5-9875-f50016b679dd": {
+    "url": "db://assets/prefabs/Block.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ]
+    }
+  },
+  "8af74874-f89e-4266-9f41-ed7e9a5c1db2": {
+    "url": "db://assets/scripts/Game.ts",
+    "value": {}
+  }
+}
