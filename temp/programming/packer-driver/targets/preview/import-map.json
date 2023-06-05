@@ -1,9 +1,11 @@
 {
   "imports": {
     "cce:/internal/x/cc": "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js",
-    "cce:/internal/x/prerequisite-imports": "./chunks/6c/6cea9118b313aa76b67e6fd6577a4a82aae4c9d4.js",
+    "cce:/internal/x/prerequisite-imports": "./chunks/e6/e690d8d21c3264f88cef1049bc05ae341c5f161a.js",
     "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/82/823dcf9db92fd488afc60c766b4237a14764ca46.js",
-    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts": "./chunks/9a/9a082f557b08847565c8992c91c30e74c5608e80.js"
+    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts": "./chunks/fd/fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4.js",
+    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Colors.ts": "./chunks/b3/b39d26017350e72d678535090d1b7794a266be9b.js",
+    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts": "./chunks/90/906fb5b8c626589c64f60c97b37db7a5ad2949e0.js"
   },
   "scopes": {
     "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js": {
@@ -28,11 +30,23 @@
       "__unresolved_8": "cce:/internal/x/cc-fu/intersection-2d",
       "__unresolved_9": "cce:/internal/x/cc-fu/light-probe"
     },
-    "./chunks/6c/6cea9118b313aa76b67e6fd6577a4a82aae4c9d4.js": {
+    "./chunks/e6/e690d8d21c3264f88cef1049bc05ae341c5f161a.js": {
       "__unresolved_0": "./chunks/82/823dcf9db92fd488afc60c766b4237a14764ca46.js",
-      "__unresolved_1": "./chunks/9a/9a082f557b08847565c8992c91c30e74c5608e80.js"
+      "__unresolved_1": "./chunks/fd/fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4.js",
+      "__unresolved_2": "./chunks/b3/b39d26017350e72d678535090d1b7794a266be9b.js",
+      "__unresolved_3": "./chunks/90/906fb5b8c626589c64f60c97b37db7a5ad2949e0.js"
     },
-    "./chunks/9a/9a082f557b08847565c8992c91c30e74c5608e80.js": {
+    "./chunks/90/906fb5b8c626589c64f60c97b37db7a5ad2949e0.js": {
+      "__unresolved_0": "./chunks/cc/cceb4f795e6e637cc67c120b5b44ef3a584b486a.js",
+      "__unresolved_1": "./chunks/fd/fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4.js",
+      "cc": "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js"
+    },
+    "./chunks/fd/fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4.js": {
+      "__unresolved_0": "./chunks/cc/cceb4f795e6e637cc67c120b5b44ef3a584b486a.js",
+      "__unresolved_1": "./chunks/b3/b39d26017350e72d678535090d1b7794a266be9b.js",
+      "cc": "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js"
+    },
+    "./chunks/b3/b39d26017350e72d678535090d1b7794a266be9b.js": {
       "cc": "./chunks/02/02454ce52c24527a6d11792cfd90549c5b418480.js"
     },
     "./chunks/82/823dcf9db92fd488afc60c766b4237a14764ca46.js": {

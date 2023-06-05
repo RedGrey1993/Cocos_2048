@@ -10,7 +10,7 @@
   },
   {
     "__type__": "cc.Scene",
-    "_name": "game",
+    "_name": "Game",
     "_objFlags": 0,
     "_parent": null,
     "_children": [

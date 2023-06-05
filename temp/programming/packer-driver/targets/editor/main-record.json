@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 8381.729000002146,
+      "mTimestamp": 13116.558200001717,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 13884.818300008774,
-      "chunkId": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
+      "mTimestamp": 1662429.4515999556,
+      "chunkId": "52c5783aa6cb269f6547b0da83ec062fe79b746b",
       "imports": [
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -637,7 +637,7 @@
           }
         },
         {
-          "value": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts",
+          "value": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -646,7 +646,35 @@
             },
             "end": {
               "line": 5,
-              "column": 244
+              "column": 245
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Colors.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 261
+            },
+            "end": {
+              "line": 5,
+              "column": 324
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 340
+            },
+            "end": {
+              "line": 5,
+              "column": 401
             }
           }
         }
@@ -657,6 +685,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Colors.ts"
           },
           "messages": []
         },
@@ -775,10 +817,94 @@
     },
     "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts": {
       "mTimestamp": {
-        "mtime": 1685464679670.6516,
+        "mtime": 1685860506614.9314,
         "uuid": "8af74874-f89e-4266-9f41-ed7e9a5c1db2"
       },
-      "chunkId": "dfa8a9a9f6ac50639016dd1e1003b28e34134e0c",
+      "chunkId": "c06a300ef8631da9716c7910adf3a8ce018b5995",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 105
+            },
+            "end": {
+              "line": 1,
+              "column": 109
+            }
+          }
+        },
+        {
+          "value": "./Block",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Colors.ts": {
+      "mTimestamp": {
+        "mtime": 1685635520198.0403,
+        "uuid": "c763fc63-4930-4d6f-8626-170f21c1e021"
+      },
+      "chunkId": "b39d26017350e72d678535090d1b7794a266be9b",
       "imports": [
         {
           "value": "cc"
@@ -791,11 +917,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 59
+              "column": 22
             },
             "end": {
               "line": 1,
-              "column": 63
+              "column": 26
             }
           }
         }
@@ -820,6 +946,97 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1685858846063,
+      "chunkId": "be027f973d8ff1c6fe3dcfebbc993118a793ec1b",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts": {
+      "mTimestamp": {
+        "mtime": 1685636493502.5083,
+        "uuid": "a8c17aa3-22b5-4fa7-ac99-18f245f4d722"
+      },
+      "chunkId": "1e5fe65584d286e6f69316091d6e41aaa369f031",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 59
+            },
+            "end": {
+              "line": 1,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "./Colors",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Colors.ts"
           },
           "messages": []
         }

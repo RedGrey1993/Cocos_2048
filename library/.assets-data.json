@@ -33,5 +33,25 @@
   "8af74874-f89e-4266-9f41-ed7e9a5c1db2": {
     "url": "db://assets/scripts/Game.ts",
     "value": {}
+  },
+  "4a2865cd-da96-46a3-8e1d-1494f05c74be": {
+    "url": "db://assets/scripts/Colors.ts",
+    "value": {}
+  },
+  "29cb1da6-5afa-4df6-9206-0a3695972bfe": {
+    "url": "db://assets/scripts/Colors.ts",
+    "value": {}
+  },
+  "79db86d0-a659-4310-9bbf-84617f1aa9bf": {
+    "url": "db://assets/scripts/Colors.d.ts",
+    "value": {}
+  },
+  "c763fc63-4930-4d6f-8626-170f21c1e021": {
+    "url": "db://assets/scripts/Colors.ts",
+    "value": {}
+  },
+  "a8c17aa3-22b5-4fa7-ac99-18f245f4d722": {
+    "url": "db://assets/scripts/Block.ts",
+    "value": {}
   }
 }

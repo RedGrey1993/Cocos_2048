@@ -24,6 +24,44 @@
       },
       "timestamp": 1685284690352
     },
+    "b39d26017350e72d678535090d1b7794a266be9b": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "02454ce52c24527a6d11792cfd90549c5b418480"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1685635522208
+    },
+    "fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "b39d26017350e72d678535090d1b7794a266be9b"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "02454ce52c24527a6d11792cfd90549c5b418480"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1685636574398
+    },
     "02454ce52c24527a6d11792cfd90549c5b418480": {
       "imports": {
         "__unresolved_0": {
@@ -167,21 +205,13 @@
           "messages": []
         }
       },
-      "timestamp": 1685464743052
+      "timestamp": 1685858859364
     },
-    "9a082f557b08847565c8992c91c30e74c5608e80": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "02454ce52c24527a6d11792cfd90549c5b418480"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1685464743093
+    "cceb4f795e6e637cc67c120b5b44ef3a584b486a": {
+      "imports": {},
+      "timestamp": 1685858859406
     },
-    "6cea9118b313aa76b67e6fd6577a4a82aae4c9d4": {
+    "e690d8d21c3264f88cef1049bc05ae341c5f161a": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -193,18 +223,60 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "9a082f557b08847565c8992c91c30e74c5608e80"
+            "id": "fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "b39d26017350e72d678535090d1b7794a266be9b"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "906fb5b8c626589c64f60c97b37db7a5ad2949e0"
           },
           "messages": []
         }
       },
-      "timestamp": 1685464748419
+      "timestamp": 1685860508609
+    },
+    "906fb5b8c626589c64f60c97b37db7a5ad2949e0": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "02454ce52c24527a6d11792cfd90549c5b418480"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1685860508705
     }
   },
   "entries": {
     "cce:/internal/x/cc": "02454ce52c24527a6d11792cfd90549c5b418480",
-    "cce:/internal/x/prerequisite-imports": "6cea9118b313aa76b67e6fd6577a4a82aae4c9d4",
+    "cce:/internal/x/prerequisite-imports": "e690d8d21c3264f88cef1049bc05ae341c5f161a",
     "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "823dcf9db92fd488afc60c766b4237a14764ca46",
-    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts": "9a082f557b08847565c8992c91c30e74c5608e80"
+    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts": "fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4",
+    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Colors.ts": "b39d26017350e72d678535090d1b7794a266be9b",
+    "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts": "906fb5b8c626589c64f60c97b37db7a5ad2949e0"
   }
 }
