@@ -110,5 +110,69 @@
     "time": 1685636493502.5083,
     "uuid": "a8c17aa3-22b5-4fa7-ac99-18f245f4d722",
     "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\prefabs": {
+    "time": 1685981754897.5608,
+    "uuid": "a3bf1fab-fc7f-4ac2-b529-7458c8a297f9",
+    "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scenes": {
+    "time": 1685981754900.5598,
+    "uuid": "d7ca6a8d-6880-4356-a803-1176de3fef98",
+    "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scripts": {
+    "time": 1685981754903.579,
+    "uuid": "b9f3a828-0f8f-4309-b7d8-e72f2f236b42",
+    "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scripts\\Block.ts": {
+    "time": 1686064752455.663,
+    "uuid": "a8c17aa3-22b5-4fa7-ac99-18f245f4d722",
+    "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scripts\\Colors.ts": {
+    "time": 1685981754902.5715,
+    "uuid": "c763fc63-4930-4d6f-8626-170f21c1e021",
+    "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scripts\\Game.ts": {
+    "time": 1686241459130.5364,
+    "uuid": "8af74874-f89e-4266-9f41-ed7e9a5c1db2",
+    "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\prefabs.meta": {
+    "time": 1685981754895.5603
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scenes.meta": {
+    "time": 1685981754898.5579
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scripts.meta": {
+    "time": 1685981754901.5752
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scripts\\Block.ts.meta": {
+    "time": 1685981754902.5715
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scripts\\Colors.ts.meta": {
+    "time": 1685981754903.579
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scripts\\Game.ts.meta": {
+    "time": 1685981754904.5742
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\prefabs\\Block.prefab": {
+    "time": 1685981754897.5608,
+    "uuid": "813dcc61-d5f4-4eb5-9875-f50016b679dd",
+    "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scenes\\Game.scene": {
+    "time": 1685981754899.5767,
+    "uuid": "015193f5-d78f-4655-865b-a896b307b206",
+    "missing": false
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\scenes\\Game.scene.meta": {
+    "time": 1685981754900.5598
+  },
+  "C:\\CocosWorkspace\\Cocos_2048\\assets\\prefabs\\Block.prefab.meta": {
+    "time": 1685981754898.5579
   }
 }

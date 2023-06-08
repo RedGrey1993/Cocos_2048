@@ -1,11 +1,12 @@
-import { _decorator, Component, instantiate, Label, Node, Prefab, Sprite, UITransform, Vec2, view } from 'cc';
+import { _decorator, Component, instantiate, Label, Node, NodeEventType, Prefab, randomRangeInt, Sprite, UITransform, Vec2, view } from 'cc';
 import { colors }  from './Colors';
 import { Block } from './Block';
 const { ccclass, property } = _decorator;
 
 const gBlockHorizontalNum: number = 4;
 const gBlockVerticalNum: number = 4;
-const gRandomGenerateNumbers = [2, 4];
+const gRandomGenerateNumbers: number[] = [2, 4];
+const gTouchMoveThreshold: number = 50;
 
 @ccclass('Game')
 export class Game extends Component {
@@ -20,6 +21,8 @@ export class Game extends Component {
     private blockSize: number = 0;
     private blockPositions = [];
     private blocks = [];
+    private startPosition: Vec2;
+    private endPosition: Vec2;
 
     drawBgBlocks() {
         this.blockSize = 
@@ -66,6 +69,10 @@ export class Game extends Component {
         }
         // console.log(this.blocks);
         // console.log(this.getFreeBlocksXy());
+
+        this.addRandomNumberBlock();
+        this.addRandomNumberBlock();
+        this.addRandomNumberBlock();
     }
 
     // 更新总分数
@@ -74,7 +81,7 @@ export class Game extends Component {
         this.scoreLabel.string = '分数: ' + num;
     }
 
-    // 获取空白块的xy下表索引
+    // 获取空白块的xy下标
     getFreeBlocksXy() {
         var freeBlocksXy = [];
         for(var i = 0; i<this.blocks.length;++i) {
@@ -88,13 +95,74 @@ export class Game extends Component {
     }
 
     // 随机在空白位置处添加一个数字块
-    addNumberBlock() {
+    addRandomNumberBlock() {
+        var freeBlocksXy = this.getFreeBlocksXy();
+        if (freeBlocksXy.length == 0) return false;
+        var index = freeBlocksXy[randomRangeInt(0, freeBlocksXy.length)];
+        // console.log(index);
+        var pos = this.blockPositions[index[0]][index[1]];
+        // console.log(pos);
+        var block = instantiate(this.blockPrefab);
+        var blockUiTransform = block.getComponent(UITransform);
+        blockUiTransform.width = blockUiTransform.height = this.blockSize;
+        block.setPosition(pos.x, pos.y);
+        // console.log(gRandomGenerateNumbers[randomRangeInt(0, gRandomGenerateNumbers.length)]);
+        block.getComponent(Block).setNumber(gRandomGenerateNumbers[randomRangeInt(0, gRandomGenerateNumbers.length)]);
+        this.background.addChild(block);
+        // console.log(this.background.children)
+        this.blocks[index[0]][index[1]] = block;
+        return true;
+    }
 
+    moveRight() {
+        console.log('move right');
+    }
+
+    moveLeft() {
+        console.log('move left');
+    }
+
+    moveUp() {
+        console.log('move up');
+    }
+
+    moveDown() {
+        console.log('move down');
+    }
+
+    addEventHandler() {
+        this.background.on(NodeEventType.TOUCH_START, (event) => {
+            this.startPosition = event.getLocation();
+            // console.log(this.startPosition);
+        });
+
+        this.background.on(NodeEventType.TOUCH_END, (event) => {
+            this.endPosition = event.getLocation();
+            // console.log(this.endPosition);
+            var dirVec = this.endPosition.subtract(this.startPosition);
+            // console.log(dirVec);
+            if (dirVec.length() > gTouchMoveThreshold) {
+                if (Math.abs(dirVec.x) > Math.abs(dirVec.y)) { // 水平滑动
+                    if (dirVec.x > 0) {
+                        this.moveRight();
+                    } else {
+                        this.moveLeft();
+                    }
+                } else { // 竖直滑动
+                    if (dirVec.y > 0) {
+                        this.moveUp();
+                    } else {
+                        this.moveDown();
+                    }
+                }
+            }
+        });
     }
 
     start() {
         this.drawBgBlocks();
         this.init();
+        this.addEventHandler();
     }
 
     update(deltaTime: number) {
