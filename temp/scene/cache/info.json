@@ -1,9 +1,9 @@
 {
     "systemInfo": {
         "arch": "x64",
-        "cpu": "AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  ",
+        "cpu": "12th Gen Intel(R) Core(TM) i7-12700K",
         "version": "Windows 10 Pro"
     },
     "sceneListMap": {},
-    "deviceMd5": "ecb092ea2c654bed33434a6e35df0858"
+    "deviceMd5": "9ff6876a5abff1dffa710b058e39a6fe"
 }

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 15812.803599983454,
+      "mTimestamp": 8280.9632999897,
       "chunkId": "02454ce52c24527a6d11792cfd90549c5b418480",
       "imports": [
         {
@@ -430,11 +430,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 519276.059499979,
+      "mTimestamp": 1833155.3363001347,
       "chunkId": "e690d8d21c3264f88cef1049bc05ae341c5f161a",
       "imports": [
         {
-          "value": "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -443,12 +443,12 @@
             },
             "end": {
               "line": 4,
-              "column": 69
+              "column": 139
             }
           }
         },
         {
-          "value": "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts",
+          "value": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -457,12 +457,12 @@
             },
             "end": {
               "line": 5,
-              "column": 70
+              "column": 69
             }
           }
         },
         {
-          "value": "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts",
+          "value": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Colors.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -471,12 +471,12 @@
             },
             "end": {
               "line": 6,
-              "column": 68
+              "column": 70
             }
           }
         },
         {
-          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "value": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -485,7 +485,7 @@
             },
             "end": {
               "line": 7,
-              "column": 139
+              "column": 68
             }
           }
         }
@@ -495,28 +495,28 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Colors.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts"
           },
           "messages": []
         }
@@ -524,7 +524,7 @@
     },
     "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
       "mTimestamp": {
-        "mtime": 1685982076583.5022,
+        "mtime": 1680791731643.974,
         "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
       },
       "chunkId": "823dcf9db92fd488afc60c766b4237a14764ca46",
@@ -628,10 +628,10 @@
     },
     "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Game.ts": {
       "mTimestamp": {
-        "mtime": 1685860506614.9314,
+        "mtime": 1686470425159.1794,
         "uuid": "8af74874-f89e-4266-9f41-ed7e9a5c1db2"
       },
-      "chunkId": "906fb5b8c626589c64f60c97b37db7a5ad2949e0",
+      "chunkId": "e015cf875d5960694eade8474920d689f0e5c639",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -648,11 +648,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 105
+              "column": 149
             },
             "end": {
               "line": 1,
-              "column": 109
+              "column": 153
             }
           }
         },
@@ -763,7 +763,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1686240941749,
+      "mTimestamp": 1686468595743,
       "chunkId": "cceb4f795e6e637cc67c120b5b44ef3a584b486a",
       "imports": [],
       "type": "esm",
@@ -771,10 +771,10 @@
     },
     "file:///D:/Cocosworkspace/Cocos_2048/assets/scripts/Block.ts": {
       "mTimestamp": {
-        "mtime": 1685636493502.5083,
+        "mtime": 1686396462241.9714,
         "uuid": "a8c17aa3-22b5-4fa7-ac99-18f245f4d722"
       },
-      "chunkId": "fd05a4b0ca49c31c8daac9ba1724c9d5a3f4e0e4",
+      "chunkId": "adc841b2e688cfb367cc3278fb6bf1cfd2056134",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

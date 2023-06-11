@@ -1,11 +1,15 @@
-import { _decorator, Component, instantiate, Label, Node, NodeEventType, Prefab, randomRangeInt, Sprite, UITransform, Vec2, view } from 'cc';
+import { _decorator, Component, instantiate, Label, Node, NodeEventType, Prefab, randomRangeInt, Sprite, tween, UITransform, Vec2, Vec3, view } from 'cc';
 import { colors }  from './Colors';
 import { Block } from './Block';
 const { ccclass, property } = _decorator;
 
+// 格子行数
 const gBlockHorizontalNum: number = 4;
+// 格子列数
 const gBlockVerticalNum: number = 4;
+// 新格子可能随机生成的数字
 const gRandomGenerateNumbers: number[] = [2, 4];
+// 操作滑动距离阈值，超过该阈值才认为是有效的滑动，否则不响应，单位是像素
 const gTouchMoveThreshold: number = 50;
 
 @ccclass('Game')
@@ -19,10 +23,11 @@ export class Game extends Component {
     @property({type: Node})
     private background: Node;
     private blockSize: number = 0;
-    private blockPositions = [];
+    private blockPositions: Vec2[][] = [];
     private blocks = [];
     private startPosition: Vec2;
     private endPosition: Vec2;
+    private moveDirection = [0, -1]; //默认向左移动
 
     drawBgBlocks() {
         this.blockSize = 
@@ -32,7 +37,7 @@ export class Game extends Component {
         var y = this.gap + this.blockSize / 2;
         for (var i=0;i<gBlockVerticalNum;++i) {
             var x = this.gap + this.blockSize / 2;
-            this.blockPositions.push(new Array(gBlockHorizontalNum));
+            this.blockPositions.push(new Array<Vec2>(gBlockHorizontalNum));
             for(var j=0;j<gBlockHorizontalNum;++j) {
                 var block = instantiate(this.blockPrefab);
                 var blockUiTransform = block.getComponent(UITransform);
@@ -114,20 +119,62 @@ export class Game extends Component {
         return true;
     }
 
+    moveAninmation() {
+        for(var i=0;i<gBlockHorizontalNum;++i) {
+            for(var j=0;j<gBlockVerticalNum;++j) {
+                if (j > 0 && this.blocks[i][j] != null) {
+                    var t = tween(this.blocks[i][j]);
+                    t.to(0.5, {worldPosition: new Vec3(this.blockPositions[i][j-1].x, this.blockPositions[i][j-1].y, 1)}, {easing: 'backOut'});
+                    t.call(()=>{
+                        
+                    })
+                    t.start();
+                }
+            }
+        }
+    }
+
     moveRight() {
         console.log('move right');
+        this.moveDirection = [0, 1];
     }
 
     moveLeft() {
         console.log('move left');
+        this.moveDirection = [0, -1];
+        this.moveAninmation();
     }
 
     moveUp() {
         console.log('move up');
+        this.moveDirection = [1, 0];
     }
 
     moveDown() {
         console.log('move down');
+        this.moveDirection = [-1, 0];
+    }
+
+    touchEnd(event) {
+        this.endPosition = event.getLocation();
+        // console.log(this.endPosition);
+        var dirVec = this.endPosition.subtract(this.startPosition);
+        // console.log(dirVec);
+        if (dirVec.length() > gTouchMoveThreshold) {
+            if (Math.abs(dirVec.x) > Math.abs(dirVec.y)) { // 水平滑动
+                if (dirVec.x > 0) {
+                    this.moveRight();
+                } else {
+                    this.moveLeft();
+                }
+            } else { // 竖直滑动
+                if (dirVec.y > 0) {
+                    this.moveUp();
+                } else {
+                    this.moveDown();
+                }
+            }
+        }
     }
 
     addEventHandler() {
@@ -137,25 +184,11 @@ export class Game extends Component {
         });
 
         this.background.on(NodeEventType.TOUCH_END, (event) => {
-            this.endPosition = event.getLocation();
-            // console.log(this.endPosition);
-            var dirVec = this.endPosition.subtract(this.startPosition);
-            // console.log(dirVec);
-            if (dirVec.length() > gTouchMoveThreshold) {
-                if (Math.abs(dirVec.x) > Math.abs(dirVec.y)) { // 水平滑动
-                    if (dirVec.x > 0) {
-                        this.moveRight();
-                    } else {
-                        this.moveLeft();
-                    }
-                } else { // 竖直滑动
-                    if (dirVec.y > 0) {
-                        this.moveUp();
-                    } else {
-                        this.moveDown();
-                    }
-                }
-            }
+            this.touchEnd(event);
+        });
+
+        this.background.on(NodeEventType.TOUCH_CANCEL, (event) => {
+            this.touchEnd(event);
         });
     }
 
