@@ -1,103 +1,99 @@
-2023-6-11 15:29:47 - verbose: Arguments:
-2023-6-11 15:29:47 - verbose:   C:\ProgramData\cocos\editors\Creator\3.7.2\CocosCreator.exe: true
-2023-6-11 15:29:47 - verbose:   project: D:\Cocosworkspace\Cocos_2048
-2023-6-11 15:29:47 - verbose:   dev: false
-2023-6-11 15:29:47 - verbose:   home: C:\Users\RedGrey1993\.CocosCreator
-2023-6-11 15:29:47 - verbose:  
-2023-6-11 15:29:51 - verbose: [Package] menu@1.0.0 enable
-2023-6-11 15:29:51 - verbose: [Package] profile@1.0.0 enable
-2023-6-11 15:29:51 - verbose: [Package] project@1.0.4 enable
-2023-6-11 15:29:51 - verbose: [Package] messages@1.0.0 enable
-2023-6-11 15:29:51 - verbose: [Package] program@1.0.3 enable
-2023-6-11 15:29:51 - verbose: [Package] tester@1.0.0 enable
-2023-6-11 15:29:51 - verbose: [Package] information@1.0.0 enable
-2023-6-11 15:29:51 - verbose: [Package] preferences@1.0.0 enable
-2023-6-11 15:29:54 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.7.2\resources\resources\3d\engine
-2023-6-11 15:29:55 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,websocket,webview)
-2023-6-11 15:29:55 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.7.2\resources\resources\3d\engine\native
-2023-6-11 15:29:55 - verbose: [Package] engine@1.0.7 enable
-2023-6-11 15:29:56 - verbose: [Package] programming@1.0.0 enable
-2023-6-11 15:29:56 - verbose: [Package] device@1.0.1 enable
-2023-6-11 15:29:56 - verbose: [Package] ui-kit@1.0.1 enable
-2023-6-11 15:29:56 - verbose: [Package] asset-db@1.0.0 enable
-2023-6-11 15:29:56 - verbose: [Package] scene@1.0.0 enable
-2023-6-11 15:29:56 - verbose: [Package] server@1.0.0 enable
-2023-6-11 15:29:56 - verbose: [Package] utils@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Package] preview@1.0.1 enable
-2023-6-11 15:30:04 - verbose: [Package] animator@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Build-plugin] register pkg scene: 1ms
-2023-6-11 15:30:04 - verbose: Builder PluginManager init: 2ms
-2023-6-11 15:30:04 - verbose: [Package] builder@1.3.4 enable
-2023-6-11 15:30:04 - verbose: [Package] shortcuts@1.0.1 enable
-2023-6-11 15:30:04 - verbose: [Package] animation-graph@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Package] about@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Package] assets@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Package] console@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Package] crash-reporter@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Package] extension@3.1.1 enable
-2023-6-11 15:30:04 - verbose: [Package] hierarchy@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Package] inspector@1.0.0 enable
-2023-6-11 15:30:04 - verbose: [Package] light-probe@1.0.4 enable
-2023-6-11 15:30:04 - verbose: [Package] lightmap@1.0.4 enable
-2023-6-11 15:30:04 - verbose: [Package] node-library@1.0.1 enable
-2023-6-11 15:30:04 - verbose: [Package] package-asset@1.0.1 enable
-2023-6-11 15:30:04 - verbose: [Package] process@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] cocos-service@3.0.7 enable
-2023-6-11 15:30:07 - verbose: [Build-plugin] register pkg cocos-service: 40ms
-2023-6-11 15:30:07 - verbose: [Package] reference-image@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] reflection-probe@1.0.4 enable
-2023-6-11 15:30:07 - verbose: [Package] engine-extends@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] alipay-mini-game@1.0.1 enable
-2023-6-11 15:30:07 - verbose: [Package] android@1.0.1 enable
-2023-6-11 15:30:07 - verbose: [Package] bytedance-mini-game@1.0.2 enable
-2023-6-11 15:30:07 - verbose: [Package] certificate@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] channel-upload-tools@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] fb-instant-games@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] huawei-agc@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] huawei-quick-game@1.0.1 enable
-2023-6-11 15:30:07 - verbose: [Package] ios@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Build-plugin] register pkg android: 209ms
-2023-6-11 15:30:07 - verbose: [Build-plugin] register pkg bytedance-mini-game: 155ms
-2023-6-11 15:30:07 - verbose: [Package] linux@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] mac@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Package] native@1.0.2 enable
-2023-6-11 15:30:07 - verbose: [Build-plugin] register pkg native: 35ms
-2023-6-11 15:30:07 - verbose: [Package] ohos@1.0.0 enable
-2023-6-11 15:30:07 - verbose: [Build-plugin] register pkg fb-instant-games: 224ms
-2023-6-11 15:30:07 - verbose: [Build-plugin] register pkg huawei-quick-game: 177ms
-2023-6-11 15:30:07 - verbose: [Build-plugin] register pkg huawei-agc: 202ms
-2023-6-11 15:30:07 - verbose: [Package] open-harmonyos@1.0.0 enable
-2023-6-11 15:30:08 - verbose: [Package] oppo-mini-game@1.0.1 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg ios: 195ms
-2023-6-11 15:30:08 - verbose: [Package] runtime-dev-tools@1.0.0 enable
-2023-6-11 15:30:08 - verbose: [Package] taobao-creative-app@1.0.0 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg mac: 196ms
-2023-6-11 15:30:08 - verbose: [Package] taobao-mini-game@1.0.0 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg ohos: 127ms
-2023-6-11 15:30:08 - verbose: [Package] vivo-mini-game@1.0.1 enable
-2023-6-11 15:30:08 - verbose: [Package] web-desktop@1.0.1 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg oppo-mini-game: 130ms
-2023-6-11 15:30:08 - verbose: [Package] web-mobile@1.0.1 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg taobao-creative-app: 128ms
-2023-6-11 15:30:08 - verbose: [Package] wechatgame@1.0.2 enable
-2023-6-11 15:30:08 - verbose: [Package] windows@1.0.1 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg vivo-mini-game: 131ms
-2023-6-11 15:30:08 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg web-desktop: 118ms
-2023-6-11 15:30:08 - verbose: asset-db is ready!
-2023-6-11 15:30:08 - verbose: [Package] im-plugin@3.0.10 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg web-mobile: 278ms
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg wechatgame: 252ms
-2023-6-11 15:30:08 - verbose: [Package] placeholder@1.0.0 enable
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg windows: 271ms
-2023-6-11 15:30:08 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 282ms
-2023-6-11 15:30:14 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-6-11 15:30:14 - info: [Scene] [PHYSICS]: using builtin.
-2023-6-11 15:30:14 - log: [Scene] Cocos Creator v3.7.2
-2023-6-11 15:30:14 - info: [Scene] Forward render pipeline initialized.
-2023-6-11 15:30:14 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-2023-6-11 15:30:19 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
-2023-6-11 15:30:19 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
-https://github.com/highlightjs/highlight.js/issues/2277
-2023-6-11 15:30:19 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-2023-6-11 16:01:13 - warn: Metrics: no valid info
+2023-6-15 23:07:09 - verbose: Arguments:
+2023-6-15 23:07:09 - verbose:   C:\ProgramData\cocos\editors\Creator\3.7.2\CocosCreator.exe: true
+2023-6-15 23:07:09 - verbose:   project: C:\CocosWorkspace\Cocos_2048
+2023-6-15 23:07:09 - verbose:   dev: false
+2023-6-15 23:07:09 - verbose:   home: C:\Users\Administrator\.CocosCreator
+2023-6-15 23:07:09 - verbose:  
+2023-6-15 23:07:15 - verbose: [Package] menu@1.0.0 enable
+2023-6-15 23:07:15 - verbose: [Package] profile@1.0.0 enable
+2023-6-15 23:07:15 - verbose: [Package] project@1.0.4 enable
+2023-6-15 23:07:15 - verbose: [Package] messages@1.0.0 enable
+2023-6-15 23:07:15 - verbose: [Package] program@1.0.3 enable
+2023-6-15 23:07:15 - verbose: [Package] tester@1.0.0 enable
+2023-6-15 23:07:15 - verbose: [Package] information@1.0.0 enable
+2023-6-15 23:07:15 - verbose: [Package] preferences@1.0.0 enable
+2023-6-15 23:07:21 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.7.2\resources\resources\3d\engine
+2023-6-15 23:07:22 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,websocket,webview)
+2023-6-15 23:07:22 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.7.2\resources\resources\3d\engine\native
+2023-6-15 23:07:22 - verbose: [Package] engine@1.0.7 enable
+2023-6-15 23:07:24 - verbose: [Package] programming@1.0.0 enable
+2023-6-15 23:07:24 - verbose: [Package] device@1.0.1 enable
+2023-6-15 23:07:24 - verbose: [Package] ui-kit@1.0.1 enable
+2023-6-15 23:07:24 - verbose: [Package] asset-db@1.0.0 enable
+2023-6-15 23:07:24 - verbose: [Package] scene@1.0.0 enable
+2023-6-15 23:07:25 - verbose: [Package] server@1.0.0 enable
+2023-6-15 23:07:25 - verbose: [Package] utils@1.0.0 enable
+2023-6-15 23:07:37 - verbose: [Package] preview@1.0.1 enable
+2023-6-15 23:07:37 - verbose: [Package] animator@1.0.0 enable
+2023-6-15 23:07:37 - verbose: [Build-plugin] register pkg scene: 4ms
+2023-6-15 23:07:37 - verbose: Builder PluginManager init: 4ms
+2023-6-15 23:07:37 - verbose: [Package] builder@1.3.4 enable
+2023-6-15 23:07:37 - verbose: [Package] shortcuts@1.0.1 enable
+2023-6-15 23:07:37 - verbose: [Package] animation-graph@1.0.0 enable
+2023-6-15 23:07:38 - verbose: [Package] about@1.0.0 enable
+2023-6-15 23:07:38 - verbose: [Package] assets@1.0.0 enable
+2023-6-15 23:07:38 - verbose: [Package] console@1.0.0 enable
+2023-6-15 23:07:38 - verbose: [Package] crash-reporter@1.0.0 enable
+2023-6-15 23:07:39 - verbose: [Package] extension@3.1.1 enable
+2023-6-15 23:07:39 - verbose: [Package] hierarchy@1.0.0 enable
+2023-6-15 23:07:39 - verbose: [Package] inspector@1.0.0 enable
+2023-6-15 23:07:39 - verbose: [Package] light-probe@1.0.4 enable
+2023-6-15 23:07:39 - verbose: [Package] lightmap@1.0.4 enable
+2023-6-15 23:07:39 - verbose: [Package] node-library@1.0.1 enable
+2023-6-15 23:07:39 - verbose: [Package] package-asset@1.0.1 enable
+2023-6-15 23:07:39 - verbose: [Package] process@1.0.0 enable
+2023-6-15 23:07:39 - verbose: [Package] reference-image@1.0.0 enable
+2023-6-15 23:07:39 - verbose: [Package] reflection-probe@1.0.4 enable
+2023-6-15 23:07:39 - verbose: [Package] engine-extends@1.0.0 enable
+2023-6-15 23:07:40 - verbose: [Package] cocos-service@3.0.7 enable
+2023-6-15 23:07:40 - verbose: [Build-plugin] register pkg cocos-service: 159ms
+2023-6-15 23:07:40 - verbose: [Package] alipay-mini-game@1.0.1 enable
+2023-6-15 23:07:40 - verbose: [Package] android@1.0.1 enable
+2023-6-15 23:07:40 - verbose: [Package] bytedance-mini-game@1.0.2 enable
+2023-6-15 23:07:40 - verbose: [Package] certificate@1.0.0 enable
+2023-6-15 23:07:40 - verbose: [Package] channel-upload-tools@1.0.0 enable
+2023-6-15 23:07:40 - verbose: [Package] fb-instant-games@1.0.0 enable
+2023-6-15 23:07:40 - verbose: [Package] huawei-agc@1.0.0 enable
+2023-6-15 23:07:40 - verbose: [Package] huawei-quick-game@1.0.1 enable
+2023-6-15 23:07:40 - verbose: [Package] ios@1.0.0 enable
+2023-6-15 23:07:40 - verbose: [Package] linux@1.0.0 enable
+2023-6-15 23:07:40 - verbose: [Package] mac@1.0.0 enable
+2023-6-15 23:07:41 - verbose: [Package] native@1.0.2 enable
+2023-6-15 23:07:41 - verbose: [Build-plugin] register pkg native: 144ms
+2023-6-15 23:07:41 - verbose: [Package] ohos@1.0.0 enable
+2023-6-15 23:07:41 - verbose: [Package] open-harmonyos@1.0.0 enable
+2023-6-15 23:07:41 - verbose: [Package] oppo-mini-game@1.0.1 enable
+2023-6-15 23:07:41 - verbose: [Package] runtime-dev-tools@1.0.0 enable
+2023-6-15 23:07:41 - verbose: [Package] taobao-creative-app@1.0.0 enable
+2023-6-15 23:07:41 - verbose: [Package] taobao-mini-game@1.0.0 enable
+2023-6-15 23:07:41 - verbose: [Package] vivo-mini-game@1.0.1 enable
+2023-6-15 23:07:41 - verbose: [Package] web-desktop@1.0.1 enable
+2023-6-15 23:07:41 - verbose: [Package] web-mobile@1.0.1 enable
+2023-6-15 23:07:41 - verbose: [Package] wechatgame@1.0.2 enable
+2023-6-15 23:07:41 - verbose: [Package] windows@1.0.1 enable
+2023-6-15 23:07:41 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+2023-6-15 23:07:42 - verbose: [Package] im-plugin@3.0.10 enable
+2023-6-15 23:07:42 - verbose: [Package] placeholder@1.0.0 enable
+2023-6-15 23:07:44 - verbose: asset-db is ready!
+2023-6-15 23:07:50 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-6-15 23:07:50 - info: [Scene] [PHYSICS]: using builtin.
+2023-6-15 23:07:50 - log: [Scene] Cocos Creator v3.7.2
+2023-6-15 23:07:50 - info: [Scene] Forward render pipeline initialized.
+2023-6-15 23:07:50 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+2023-6-15 23:08:01 - verbose: [Build-plugin] register pkg oppo-mini-game: 20240ms
+2023-6-15 23:08:01 - verbose: [Build-plugin] register pkg web-desktop: 20112ms
+2023-6-15 23:08:01 - verbose: [Build-plugin] register pkg fb-instant-games: 20845ms
+2023-6-15 23:08:01 - verbose: [Build-plugin] register pkg vivo-mini-game: 20474ms
+2023-6-15 23:08:01 - verbose: [Build-plugin] register pkg huawei-agc: 21080ms
+2023-6-15 23:08:01 - verbose: [Build-plugin] register pkg windows: 20260ms
+2023-6-15 23:08:02 - verbose: [Build-plugin] register pkg web-mobile: 20568ms
+2023-6-15 23:08:02 - verbose: [Build-plugin] register pkg ohos: 20897ms
+2023-6-15 23:08:02 - verbose: [Build-plugin] register pkg wechatgame: 20526ms
+2023-6-15 23:08:02 - verbose: [Build-plugin] register pkg android: 21588ms
+2023-6-15 23:08:02 - verbose: [Build-plugin] register pkg taobao-creative-app: 20808ms
+2023-6-15 23:08:02 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 20487ms
+2023-6-15 23:08:02 - verbose: [Build-plugin] register pkg ios: 21442ms
+2023-6-15 23:08:03 - verbose: [Build-plugin] register pkg bytedance-mini-game: 22302ms
+2023-6-15 23:08:03 - verbose: [Build-plugin] register pkg mac: 22170ms
+2023-6-15 23:08:06 - verbose: [Build-plugin] register pkg huawei-quick-game: 25718ms
+2023-6-15 23:29:28 - warn: Metrics: no valid info
