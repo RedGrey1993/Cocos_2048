@@ -1,11 +1,11 @@
-debug: Thu, 15 Jun 2023 15:07:37 GMT
+debug: Tue, 20 Jun 2023 14:34:14 GMT
 debug: Project: C:\CocosWorkspace\Cocos_2048
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.7.2\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 1.4180999994277954ms.
+debug: Loading cache costs 4.824200004339218ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline,websocket,websocket-server
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 1.3207999467849731ms.
+debug: Loading cache costs 8.993699997663498ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -46,12 +46,12 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 5352.0731999874115ms.
+debug: Fetch asset-db cost: 55.95270000398159ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 4
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -82,11 +82,11 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:41:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:41 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Jun 15 2023 22:07:03 GMT+0800 (中国标准时间), Current mtime: Thu Jun 15 2023 23:07:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Jun 19 2023 22:17:17 GMT+0800 (中国标准时间), Current mtime: Tue Jun 20 2023 22:33:58 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts as cce:/internal/x/cc.
@@ -97,8 +97,6 @@ debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Color
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
-debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Thu Jun 15 2023 22:48:11 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Thu Jun 15 2023 23:06:25 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
-debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
@@ -108,9 +106,9 @@ debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/reso
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 1016.7702000141144ms.
+debug: Target(editor) ends with cost 281.98250000178814ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:15 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:19 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
@@ -132,11 +130,11 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:41:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:21 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Jun 15 2023 22:07:03 GMT+0800 (中国标准时间), Current mtime: Thu Jun 15 2023 23:07:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Jun 19 2023 22:17:17 GMT+0800 (中国标准时间), Current mtime: Tue Jun 20 2023 22:33:58 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts as cce:/internal/x/cc.
@@ -147,7 +145,7 @@ debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Color
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts as cce:/internal/x/cc.
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
-debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Thu Jun 15 2023 22:48:11 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Thu Jun 15 2023 23:06:25 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Mon Jun 19 2023 22:19:23 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Mon Jun 19 2023 22:22:18 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
 debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
@@ -158,25 +156,575 @@ debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/reso
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 426.06270003318787ms.
+debug: Target(preview) ends with cost 731.8002000004053ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 821.515900015831ms.
+debug: Fetch asset-db cost: 3653.617800012231ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 4
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Target(editor) ends with cost 102.3283998966217ms.
+debug: Target(editor) ends with cost 150.81909999251366ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:21 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
 debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-debug: Target(preview) ends with cost 50.37119996547699ms.
+debug: Target(preview) ends with cost 51.27570000290871ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Mon Jun 19 2023 22:22:18 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:42:47 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (218:35)
+
+  216 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  217 |                      && this.checkFail()) {
+> 218 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  219 |                         buttons: ['confirm', 'cancel'],
+  220 |                         title: 'Dialog Title',
+  221 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 158.99729999899864ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Mon Jun 19 2023 22:22:18 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:42:47 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (218:35)
+
+  216 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  217 |                      && this.checkFail()) {
+> 218 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  219 |                         buttons: ['confirm', 'cancel'],
+  220 |                         title: 'Dialog Title',
+  221 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 130.02869999408722ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:50 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:42:47 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:48:46 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (218:35)
+
+  216 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  217 |                      && this.checkFail()) {
+> 218 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  219 |                         buttons: ['confirm', 'cancel'],
+  220 |                         title: 'Dialog Title',
+  221 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 115.52019999921322ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:50 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:42:47 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:48:46 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (218:35)
+
+  216 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  217 |                      && this.checkFail()) {
+> 218 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  219 |                         buttons: ['confirm', 'cancel'],
+  220 |                         title: 'Dialog Title',
+  221 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 106.55290000140667ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:50 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:15:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:48:46 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:49:19 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (218:35)
+
+  216 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  217 |                      && this.checkFail()) {
+> 218 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  219 |                         buttons: ['confirm', 'cancel'],
+  220 |                         title: 'Dialog Title',
+  221 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 105.09189999103546ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:50 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:15:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:48:46 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:49:19 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (218:35)
+
+  216 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  217 |                      && this.checkFail()) {
+> 218 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  219 |                         buttons: ['confirm', 'cancel'],
+  220 |                         title: 'Dialog Title',
+  221 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 104.71940000355244ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:15:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:49 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:49:19 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:50:41 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (220:35)
+
+  218 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  219 |                      && this.checkFail()) {
+> 220 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  221 |                         buttons: ['confirm', 'cancel'],
+  222 |                         title: 'Dialog Title',
+  223 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 110.57310000061989ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:15:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:49 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:49:19 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:50:41 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (220:35)
+
+  218 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  219 |                      && this.checkFail()) {
+> 220 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  221 |                         buttons: ['confirm', 'cancel'],
+  222 |                         title: 'Dialog Title',
+  223 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 124.95840001106262ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:12 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:50:41 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:51:07 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (218:35)
+
+  216 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  217 |                      && this.checkFail()) {
+> 218 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  219 |                         buttons: ['confirm', 'cancel'],
+  220 |                         title: 'Dialog Title',
+  221 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 91.87590000033379ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:12 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:50:41 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:51:07 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: We encountered an load error: SyntaxError: C:\CocosDashboard_1.3.2\file:\C:\CocosWorkspace\Cocos_2048\assets\scripts\Game.ts: Unexpected reserved word 'await'. (218:35)
+
+  216 |                 if (toMove.length == gBlockHorizontalNum * gBlockVerticalNum
+  217 |                      && this.checkFail()) {
+> 218 |                     const result = await Editor.Dialog.info('Dialog Message', {
+      |                                    ^
+  219 |                         buttons: ['confirm', 'cancel'],
+  220 |                         title: 'Dialog Title',
+  221 |                     });
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 106.93569999933243ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:22:58 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:51:07 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:56:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 346.7470000088215ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:22:59 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:51:07 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:56:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 310.32750000059605ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:22:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:56:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:58:33 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 279.3589999973774ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:22:59 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:46 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:56:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 22:58:33 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 246.6266999989748ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:28:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:58:33 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:02:38 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 220.6621000021696ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:28:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 22:58:33 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:02:38 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 226.50759999454021ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:28:45 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:31:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:02:38 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:05:01 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 247.01420000195503ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:28:45 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:31:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:02:38 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:05:01 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 222.89130000770092ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:31:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:32:58 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:05:01 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:06:52 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 199.32639999687672ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:31:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:32:58 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:05:01 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:06:52 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 180.71729999780655ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:35:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:06:52 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:09:14 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 188.72439999878407ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:35:18 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:06:52 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:09:14 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 238.2597000002861ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:38:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:09:14 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:11:52 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 234.85509999096394ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:38:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:09:14 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:11:52 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 244.35740000009537ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:38:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:40:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:11:52 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:14:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 168.94249999523163ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:38:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:40:18 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:11:52 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:14:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 245.6372999995947ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:40:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:42:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:14:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:16:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 172.5814000070095ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:40:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:42:18 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:14:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:16:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 263.0738000124693ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:42:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:43:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:16:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:17:51 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(editor) ends with cost 203.31820000708103ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:42:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:43:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts.
+debug: Resolve file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts from cce:/internal/x/prerequisite-imports as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts.
+debug: Detected change: file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts. Last mtime: Tue Jun 20 2023 23:16:12 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2, Current mtime: Tue Jun 20 2023 23:17:51 GMT+0800 (中国标准时间)@8af74874-f89e-4266-9f41-ed7e9a5c1db2
+debug: Inspect file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as cce:/internal/x/cc.
+debug: Resolve ./Block from file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts as file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts.
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Target(preview) ends with cost 306.37560001015663ms.

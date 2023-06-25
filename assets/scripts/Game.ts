@@ -1,4 +1,4 @@
-import { _decorator, Component, instantiate, Label, Node, NodeEventType, Prefab, randomRangeInt, Sprite, tween, UITransform, Vec2, Vec3, view } from 'cc';
+import { _decorator, color, Component, instantiate, Label, Node, NodeEventType, Prefab, randomRangeInt, Sprite, tween, UITransform, Vec2, Vec3, view } from 'cc';
 import { colors }  from './Colors';
 import { Block } from './Block';
 const { ccclass, property } = _decorator;
@@ -16,6 +16,8 @@ const gTouchMoveThreshold: number = 50;
 export class Game extends Component {
     @property({type: Label})
     private scoreLabel: Label;
+    @property({type: Label})
+    private titleLabel: Label;
     private score: number = 0;
     @property({type: Prefab})
     private blockPrefab: Prefab;
@@ -138,6 +140,39 @@ export class Game extends Component {
         return x >= 0 && x < gBlockHorizontalNum && y >=0 && y < gBlockVerticalNum;
     }
 
+    checkFail() {
+        var dir = [[0, 1], [0, -1], [1, 0], [-1, 0]];
+        for(var i=0;i<gBlockHorizontalNum;++i) {
+            for(var j=0;j<gBlockVerticalNum;++j) {
+                if (this.blocks[i][j] == null) {
+                    return false;
+                }
+            }
+        }
+
+        for(var i=0;i<gBlockHorizontalNum;++i) {
+            for(var j=0;j<gBlockVerticalNum;++j) {
+                for (var k=0;k<4;++k) {
+                    var ti = i + dir[k][0];
+                    var tj = j + dir[k][1];
+                    if (ti < 0 || ti >= gBlockHorizontalNum || tj < 0 || tj >= gBlockVerticalNum) {
+                        continue;
+                    }
+                    if (this.blocks[ti][tj].getComponent(Block).getNumber() == 
+                        this.blocks[i][j].getComponent(Block).getNumber()) {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
+    gameOver() {
+        this.titleLabel.string = 'Game Over';
+        this.titleLabel.color = color(244,138,89,255);
+    }
+
     move(x, y, callback) {
         var tx = x + this.moveDirection[0];
         var ty = y + this.moveDirection[1];
@@ -186,7 +221,12 @@ export class Game extends Component {
             cur++;
             if (cur == toMove.length) {
                 if (this.acuallyMoved) {
+                    this.updateScore(this.score + 1);
                     this.addRandomNumberBlock();
+                }
+                if (this.checkFail()) {
+                    console.log("Game Over");
+                    this.gameOver();
                 }
                 this.canOperate = true;
             } else {

@@ -701,6 +701,9 @@
     "scoreLabel": {
       "__id__": 12
     },
+    "titleLabel": {
+      "__id__": 8
+    },
     "blockPrefab": {
       "__uuid__": "813dcc61-d5f4-4eb5-9875-f50016b679dd",
       "__expectedType__": "cc.Prefab"

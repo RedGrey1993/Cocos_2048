@@ -2,6 +2,12 @@
   "name": "2048",
   "uuid": "b519b3a7-108f-4611-84a6-505d7ce95681",
   "creator": {
-    "version": "3.7.2"
+    "version": "3.7.2",
+    "registry": {
+      "remote": {}
+    },
+    "dependencies": {
+      "localization-editor": "1.0.1"
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 15221.078200101852,
+      "mTimestamp": 16225.73070000112,
       "chunkId": "02454ce52c24527a6d11792cfd90549c5b418480",
       "imports": [
         {
@@ -430,7 +430,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 23298.129600048065,
+      "mTimestamp": 2634674.780100003,
       "chunkId": "e690d8d21c3264f88cef1049bc05ae341c5f161a",
       "imports": [
         {
@@ -763,7 +763,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1686841642173,
+      "mTimestamp": 1687271638909,
       "chunkId": "cceb4f795e6e637cc67c120b5b44ef3a584b486a",
       "imports": [],
       "type": "esm",
@@ -991,10 +991,10 @@
     },
     "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts": {
       "mTimestamp": {
-        "mtime": 1686841585539.9502,
+        "mtime": 1687274271593.8904,
         "uuid": "8af74874-f89e-4266-9f41-ed7e9a5c1db2"
       },
-      "chunkId": "3cd7d25e78c96778027fb53c9236a0d61d15b9c3",
+      "chunkId": "920ed4b862a1d14c0330db244a32c359c622c486",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1011,11 +1011,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 149
+              "column": 156
             },
             "end": {
               "line": 1,
-              "column": 153
+              "column": 160
             }
           }
         },

@@ -269,13 +269,46 @@
           "messages": []
         }
       },
-      "timestamp": 1686841663910
+      "timestamp": 1687271655950
     },
     "cceb4f795e6e637cc67c120b5b44ef3a584b486a": {
       "imports": {},
-      "timestamp": 1686841663975
+      "timestamp": 1687271656029
     },
-    "3cd7d25e78c96778027fb53c9236a0d61d15b9c3": {
+    "e690d8d21c3264f88cef1049bc05ae341c5f161a": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "f3936b7211db07ab61574e4d5d075e823cb7ee70"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "36a5100c71866693c7a743c75ed096f7eed3e484"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "920ed4b862a1d14c0330db244a32c359c622c486"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "823dcf9db92fd488afc60c766b4237a14764ca46"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1687274273482
+    },
+    "920ed4b862a1d14c0330db244a32c359c622c486": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -299,40 +332,7 @@
           "messages": []
         }
       },
-      "timestamp": 1686841664231
-    },
-    "e690d8d21c3264f88cef1049bc05ae341c5f161a": {
-      "imports": {
-        "__unresolved_0": {
-          "resolved": {
-            "type": "chunk",
-            "id": "f3936b7211db07ab61574e4d5d075e823cb7ee70"
-          },
-          "messages": []
-        },
-        "__unresolved_1": {
-          "resolved": {
-            "type": "chunk",
-            "id": "36a5100c71866693c7a743c75ed096f7eed3e484"
-          },
-          "messages": []
-        },
-        "__unresolved_2": {
-          "resolved": {
-            "type": "chunk",
-            "id": "3cd7d25e78c96778027fb53c9236a0d61d15b9c3"
-          },
-          "messages": []
-        },
-        "__unresolved_3": {
-          "resolved": {
-            "type": "chunk",
-            "id": "823dcf9db92fd488afc60c766b4237a14764ca46"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1686841665429
+      "timestamp": 1687274273751
     }
   },
   "entries": {
@@ -341,6 +341,6 @@
     "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "823dcf9db92fd488afc60c766b4237a14764ca46",
     "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Block.ts": "f3936b7211db07ab61574e4d5d075e823cb7ee70",
     "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Colors.ts": "36a5100c71866693c7a743c75ed096f7eed3e484",
-    "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts": "3cd7d25e78c96778027fb53c9236a0d61d15b9c3"
+    "file:///C:/CocosWorkspace/Cocos_2048/assets/scripts/Game.ts": "920ed4b862a1d14c0330db244a32c359c622c486"
   }
 }
