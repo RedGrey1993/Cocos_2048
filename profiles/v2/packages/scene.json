@@ -15,7 +15,10 @@
     "isGridVisible": true
   },
   "__version__": "1.0.0",
-  "builder": {},
+  "builder": {
+    "taskOptionsMap": {},
+    "__version__": "1.3.4"
+  },
   "": {
     "sculpt_brush_rotate": 0
   },
@@ -58,8 +61,8 @@
     },
     "015193f5-d78f-4655-865b-a896b307b206": {
       "position": {
-        "x": 234.47626472579418,
-        "y": 675.8508857443876,
+        "x": 398.74627342761846,
+        "y": 629.9951243866801,
         "z": 5000
       },
       "rotation": {
